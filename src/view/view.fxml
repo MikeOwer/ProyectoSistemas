@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="1002.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="controller.Controller">
+    <children>
+        <TableView layoutX="19.0" layoutY="495.0" prefHeight="166.0" prefWidth="620.0">
+            <columns>
+                <TableColumn text="No." />
+                <TableColumn prefWidth="141.0" text="Localidad" />
+                <TableColumn prefWidth="133.0" text="Tamaño" />
+                <TableColumn prefWidth="133.0" text="Estado" />
+                <TableColumn prefWidth="133.0" text="Proceso" />
+            </columns>
+        </TableView>
+        <TableView layoutX="23.0" layoutY="128.0" prefHeight="175.0" prefWidth="620.0">
+            <columns>
+                <TableColumn prefWidth="101.0" text="Proceso" />
+                <TableColumn prefWidth="118.0" text="Tamaño" />
+                <TableColumn prefWidth="179.0" text="Tiempo de llegada" />
+                <TableColumn prefWidth="221.0" text="Tiempo de finalizacion" />
+            </columns>
+        </TableView>
+        <TableView layoutX="20.0" layoutY="330.0" prefHeight="147.0" prefWidth="489.0">
+            <columns>
+                <TableColumn prefWidth="78.0" text="No." />
+                <TableColumn prefWidth="143.0" text="Localidad" />
+                <TableColumn prefWidth="133.0" text="Tamaño" />
+                <TableColumn prefWidth="133.0" text="Estado" />
+            </columns>
+        </TableView>
+        <Button layoutX="466.0" layoutY="703.0" mnemonicParsing="false" text="Siguiente paso" />
+        <TableView layoutX="839.0" layoutY="126.0" prefHeight="200.0" prefWidth="115.0">
+            <columns>
+                <TableColumn prefWidth="119.00001525878906" text="Memoria" />
+            </columns>
+        </TableView>
+      <Button layoutX="305.0" layoutY="53.0" mnemonicParsing="false" text="Add" />
+    </children>
+</AnchorPane>
